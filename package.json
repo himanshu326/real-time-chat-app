@@ -1,0 +1,21 @@
+{
+  "homepage": "himanshu326.github.io/real-time-chat-app",
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "this node for chat app",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hy",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.18",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
